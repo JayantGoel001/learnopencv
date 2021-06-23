@@ -1,6 +1,6 @@
 # Human Pose Estimation using Keypoint RCNN in PyTorch
 
-
+[![](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/spmallick/learnopencv/blob/master/PyTorch-Keypoint-RCNN/run_pose_estimation.ipynb)
 
 ## Directory Structure
 
@@ -8,15 +8,12 @@
 
 ```
 
-├── input
+├── images
 │   ├── image_1.png
 │    
 ├── run_keypoint_rcnn.py
 ├── run_keypoint_rcnn.ipynb
 ├── requirements.txt
-│
-│   
-│   
 │       
 └── README.md
 ```
