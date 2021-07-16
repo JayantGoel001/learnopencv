@@ -2,16 +2,30 @@
 
 ## Package Dependencies
 
-This repository trains the Deep Convolutional GAN in both Pytorch and Tensorflow on Anime-Faces dataset. It is tested with:
+This repository trains the Deep Convolutional GAN in both Pytorch and Tensorflow on [Anime-Faces dataset](https://github.com/bchao1/Anime-Face-Dataset). It is tested with:
 
 - `Cuda-11.1`
 - `Cudnn-8.0`
 
-The Pytorch and Tensorflow scripts require [numpy](https://numpy.org/), [tf-nightly-gpu](https://pypi.org/project/tf-nightly-gpu/), [torch](https://pypi.org/project/torch/). 
+The Pytorch and Tensorflow scripts require [numpy](https://numpy.org/), [tensorflow](https://www.tensorflow.org/install), [torch](https://pypi.org/project/torch/). 
 To get the versions of these packages you need for the program, use pip: (Make sure pip is upgraded: ` python3 -m pip install -U pip`)
 ```
 pip3 install -r requirements.txt 
 ```
+
+## Directory Structure
+
+
+```
+├── PyTorch
+│   ├── DCGAN_Anime_Pytorch.ipynb
+│   └── dcgan_anime_pytorch.py
+└── TensorFlow
+    ├── DCGAN_Anime_Tensorflow.ipynb
+    └── dcgan_anime_tesnorflow.py
+```
+
+
 
 ## Instructions
 
